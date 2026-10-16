@@ -1,0 +1,24 @@
+{
+  "name": "finger-tracker",
+  "version-string": "0.1.0",
+  "dependencies": [
+    {
+      "name": "pkgconf",
+      "host": true
+    },
+    {
+      "name": "opencv4",
+      "default-features": false,
+      "features": [
+        "dnn",
+        "dshow",
+        "highgui",
+        "jpeg",
+        "msmf",
+        "png",
+        "thread",
+        "win32ui"
+      ]
+    }
+  ]
+}
